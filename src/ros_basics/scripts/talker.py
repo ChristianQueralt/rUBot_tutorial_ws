@@ -11,7 +11,6 @@ def talker():
         rospy.loginfo(hello_str)
         pub.publish(hello_str)
         rate.sleep()
-        print("HOLA")
 
 if __name__ == '__main__':
     try:
